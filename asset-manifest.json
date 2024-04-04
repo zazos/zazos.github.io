@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/zazos/zazos.github.io/static/css/main.386b9bb6.css",
+    "main.js": "/zazos/zazos.github.io/static/js/main.08e8e748.js",
+    "static/js/453.b21437c2.chunk.js": "/zazos/zazos.github.io/static/js/453.b21437c2.chunk.js",
+    "static/media/data_vis.jpeg": "/zazos/zazos.github.io/static/media/data_vis.7c98bca0499dc2a83bc6.jpeg",
+    "static/media/dark-souls.gif": "/zazos/zazos.github.io/static/media/dark-souls.4fa9fe6a2eb3b2a8590b.gif",
+    "static/media/CentraNo2-Bold.ttf": "/zazos/zazos.github.io/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/zazos/zazos.github.io/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/zazos/zazos.github.io/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/greek_elections.png": "/zazos/zazos.github.io/static/media/greek_elections.85d8cb717c2a24496981.png",
+    "static/media/PirataOne-Regular.ttf": "/zazos/zazos.github.io/static/media/PirataOne-Regular.269bd2986eb6f1940505.ttf",
+    "static/media/vr_project.webp": "/zazos/zazos.github.io/static/media/vr_project.49dfeae352232b42bc98.webp",
+    "static/media/personal_photo_profile.jpeg": "/zazos/zazos.github.io/static/media/personal_photo_profile.7fae5596a54b6e602bfe.jpeg",
+    "static/media/e_invoicing.jpeg": "/zazos/zazos.github.io/static/media/e_invoicing.af55abb60ede448c7fc4.jpeg",
+    "static/media/movie_recommender.jpeg": "/zazos/zazos.github.io/static/media/movie_recommender.cd3195f0c53b9acf9655.jpeg",
+    "static/media/nav-icon3.svg": "/zazos/zazos.github.io/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/zazos/zazos.github.io/index.html",
+    "static/media/nav-icon1.svg": "/zazos/zazos.github.io/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/zazos/zazos.github.io/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.386b9bb6.css.map": "/zazos/zazos.github.io/static/css/main.386b9bb6.css.map",
+    "main.08e8e748.js.map": "/zazos/zazos.github.io/static/js/main.08e8e748.js.map",
+    "453.b21437c2.chunk.js.map": "/zazos/zazos.github.io/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386b9bb6.css",
+    "static/js/main.08e8e748.js"
+  ]
+}
