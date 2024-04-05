@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab8af5a1.css",
+    "main.js": "/static/js/main.95dfb11d.js",
+    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/data_vis.jpeg": "/static/media/data_vis.7c98bca0499dc2a83bc6.jpeg",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/greek_elections.png": "/static/media/greek_elections.85d8cb717c2a24496981.png",
+    "static/media/PirataOne-Regular.ttf": "/static/media/PirataOne-Regular.269bd2986eb6f1940505.ttf",
+    "static/media/vr_project.webp": "/static/media/vr_project.49dfeae352232b42bc98.webp",
+    "static/media/personal_photo_profile.jpeg": "/static/media/personal_photo_profile.7fae5596a54b6e602bfe.jpeg",
+    "static/media/e_invoicing.jpeg": "/static/media/e_invoicing.af55abb60ede448c7fc4.jpeg",
+    "static/media/movie_recommender.jpeg": "/static/media/movie_recommender.cd3195f0c53b9acf9655.jpeg",
+    "static/media/gradient_background.avif": "/static/media/gradient_background.970072e97593d59abc63.avif",
+    "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/index.html",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.ab8af5a1.css.map": "/static/css/main.ab8af5a1.css.map",
+    "main.95dfb11d.js.map": "/static/js/main.95dfb11d.js.map",
+    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8af5a1.css",
+    "static/js/main.95dfb11d.js"
+  ]
+}
