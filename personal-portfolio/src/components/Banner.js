@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import headerImg from '../assets/img/home-main.svg';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -56,7 +57,14 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h1>{'Panagiotis Zazos'} <span class="pronouns">(he/him)</span></h1>
                                     <p>I'm a <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></p>
-                                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                                    <button onClick={() => document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })}>Let’s Connect <ArrowRightCircle size={25} /></button>                                </div>}
+                        </TrackVisibility>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                                    <img src={headerImg} alt="Header Img" />
                                 </div>}
                         </TrackVisibility>
                     </Col>

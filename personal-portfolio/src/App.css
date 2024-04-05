@@ -54,6 +54,10 @@ body {
   background-color: var(--background) !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
+  background-image: url('./assets/img/gradient_background.avif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -293,6 +297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 10px;
   font-family: PirataOne, sans-serif !important;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -307,17 +312,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* Aligns items vertically in the middle of the container */
   align-items: start;
-  /* Aligns items horizontally at the start of the container */
   width: 100vw;
   height: 100vh;
-  background-image: url('./assets/img/dark-souls.gif');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   padding-left: 80px;
-  /* Added to maintain the left margin for child elements */
 }
 
 .banner h1 {
@@ -367,6 +365,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 
+.banner button:hover svg {
+  margin-left: 25px;
+}
+
 .txt-rotate>.wrap {
   border-right: 0.08em solid #666;
 }
@@ -388,7 +390,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   grid-template-columns: 1fr 1fr;
   width: 70%;
   color: var(--textcolor);
-
   margin: 5rem auto;
   grid-gap: 2rem;
   gap: 2rem;
@@ -564,7 +565,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .visualization-title {
   display: flex;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 40vh;
   color: var(--textcolor);
   font-family: 'PirataOne', sans-serif !important;
   font-size: 5rem;

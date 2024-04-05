@@ -39,11 +39,11 @@ export const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} style={{ fontFamily: 'PirataOne', fontSize: '25px' }}>Home</Nav.Link>
-                        <Nav.Link href="#About" className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('About')} style={{ fontFamily: 'PirataOne', fontSize: '25px' }}>About</Nav.Link>
-                        <Nav.Link href="#Projects" className={activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Projects')} style={{ fontFamily: 'PirataOne', fontSize: '25px' }}>Projects</Nav.Link>
-                        <Nav.Link href="#Visualization" className={activeLink === 'Visualization' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Visualization')} style={{ fontFamily: 'PirataOne', fontSize: '25px' }}>Visualization</Nav.Link>
-                        <Nav.Link href="#Contact" className={activeLink === 'Contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Contact')} style={{ fontFamily: 'PirataOne', fontSize: '25px' }}>Contact</Nav.Link>
+                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} style={{ fontFamily: 'Centra', fontSize: '20px' }}>Home</Nav.Link>
+                        <Nav.Link href="#About" className={activeLink === 'About' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('About')} style={{ fontFamily: 'Centra', fontSize: '20px' }}>About</Nav.Link>
+                        <Nav.Link href="#Projects" className={activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Projects')} style={{ fontFamily: 'Centra', fontSize: '20px' }}>Projects</Nav.Link>
+                        <Nav.Link href="#Visualization" className={activeLink === 'Visualization' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Visualization')} style={{ fontFamily: 'Centra', fontSize: '20px' }}>Visualization</Nav.Link>
+                        <Nav.Link href="#Contact" className={activeLink === 'Contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Contact')} style={{ fontFamily: 'Centra', fontSize: '20px' }}>Contact</Nav.Link>
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
