@@ -565,7 +565,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .visualization-title {
   display: flex;
   justify-content: center;
-  margin-top: 40vh;
+  margin-top: 50vh;
   color: var(--textcolor);
   font-family: 'PirataOne', sans-serif !important;
   font-size: 5rem;
