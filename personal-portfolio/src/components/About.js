@@ -12,7 +12,6 @@ export const About = () => {
         'HTML/CSS',
         'React',
         'Github/Git',
-        'Bootstrap CSS',
         'SQL',
         'Python',
         'C#',
@@ -23,7 +22,8 @@ export const About = () => {
         'Machine Learning',
         'Tensor Flow',
         'PyTorch',
-        'Keras'
+        'Keras',
+        'NLP'
     ];
 
     return (
