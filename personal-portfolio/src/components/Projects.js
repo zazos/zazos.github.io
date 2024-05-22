@@ -48,7 +48,7 @@ export const Projects = () => {
                 <ProjectCard
                     title="Multiclass Text Classification for News Articles"
                     imageSrc={news_classification}
-                    githubLink="https://github.com/zazos/Data-Analytics"
+                    githubLink="https://github.com/zazos/News-Article---Text-Classification"
                     technologies="Python, TensorFlow, Keras, Pandas, Numpy, Scikit-learn"
                     description="SVM, Random Forests, BoW, SVD: Initially used these classic classification methods 
                     and features for text classification. Then, developed an LSTM neural network using Data Generators and GPU 
@@ -58,7 +58,7 @@ export const Projects = () => {
                 <ProjectCard
                     title="Movie Recommendation System"
                     imageSrc={movie_recommender}
-                    githubLink="https://github.com/zazos"
+                    githubLink="https://github.com/zazos/Movie-Recommendation-System"
                     technologies="Python, BigData"
                     description="The project involves developing a movie recommendation system using the MovieLens dataset, 
                     incorporating various algorithms such as collaborative filtering, content-based, and hybrid methods. 
@@ -69,7 +69,7 @@ export const Projects = () => {
                 <ProjectCard
                     title="Deep Learning for NLP - Greek Elections"
                     imageSrc={greek_elections}
-                    githubLink="https://github.com/zazos"
+                    githubLink="https://github.com/zazos/Sentiment-Analysis---Greek-Elections"
                     technologies="Python, PyTorch, Pandas, Numpy, Scikit-learn, Word Embeddings, Neural Networks"
                     description="The project aims to build a sentiment analysis model for tweets in Greek about the Greek Elections, 
                     classifying them as negative, neutral, or positive using ML and NLP techniques, including General Neural Networks, 

@@ -6,7 +6,7 @@ export const Visualization = () => {
     return (
         <section className='visualization-section' id='Visualization'>
             <h1 className='visualization-title'>
-                Visualization<span style={{ color: '#FF004F' }}></span>
+                Visualization (Uni-Assignment)<span style={{ color: '#FF004F' }}></span>
             </h1>
             <div className='section-divider'></div>
             <div className='content-wrapper'>
