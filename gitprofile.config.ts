@@ -44,7 +44,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Panagiotis Zazos',
     description: '',
     imageURL: '',
   },
