@@ -24,7 +24,7 @@ type Colors = {
 };
 
 export const getSanitizedConfig = (
-  config: Config,
+  config: SanitizedConfig,
 ): SanitizedConfig | Record<string, never> => {
   try {
     return {
@@ -85,7 +85,12 @@ export const getSanitizedConfig = (
       resume: {
         fileUrl: config?.resume?.fileUrl || '',
       },
-      skills: config?.skills || [],
+      skills: {
+        languages: config?.skills?.languages || [],
+        ml: config?.skills?.ml || [],
+        tools: config?.skills?.tools || [],
+        soft_skills: config?.skills?.soft_skills || [],
+      },
       experiences:
         config?.experiences?.filter(
           (experience) =>

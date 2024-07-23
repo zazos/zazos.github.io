@@ -135,13 +135,20 @@ export interface SanitizedThemeConfig {
   customTheme: SanitizedCustomTheme;
 }
 
+export interface Skills {
+  languages: string[];
+  ml: string[];
+  tools: string[];
+  soft_skills: string[];
+}
+
 export interface SanitizedConfig {
   github: SanitizedGithub;
   projects: SanitizedProjects;
   seo: SanitizedSEO;
   social: SanitizedSocial;
   resume: SanitizedResume;
-  skills: Array<string>;
+  skills: Skills;
   experiences: Array<SanitizedExperience>;
   educations: Array<SanitizedEducation>;
   certifications: Array<SanitizedCertification>;

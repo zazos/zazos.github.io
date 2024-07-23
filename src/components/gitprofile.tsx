@@ -11,7 +11,6 @@ import {
 import { HelmetProvider } from 'react-helmet-async';
 import '../assets/index.css';
 import { getInitialTheme, getSanitizedConfig, setupHotjar } from '../utils';
-import { SanitizedConfig } from '../interfaces/sanitized-config';
 import ErrorPage from './error-page';
 import HeadTagEditor from './head-tag-editor';
 import { DEFAULT_THEMES } from '../constants/default-themes';
@@ -20,8 +19,7 @@ import { BG_COLOR } from '../constants';
 import AvatarCard from './avatar-card';
 import { Profile } from '../interfaces/profile';
 import DetailsCard from './details-card';
-import SkillCard from './skill-card';
-import ExperienceCard from './experience-card';
+import SkillCard from './skill-card/SkillCard.tsx';
 import EducationCard from './education-card';
 import CertificationCard from './certification-card';
 import { GithubProject } from '../interfaces/github-project';
@@ -30,6 +28,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import CONFIG from '../../gitprofile.config';
 
 /**
  * Renders the GitProfile component.
@@ -37,10 +36,18 @@ import PublicationCard from './publication-card';
  * @param {Object} config - the configuration object
  * @return {JSX.Element} the rendered GitProfile component
  */
-const GitProfile = ({ config }: { config: Config }) => {
-  const [sanitizedConfig] = useState<SanitizedConfig | Record<string, never>>(
-    getSanitizedConfig(config),
-  );
+const GitProfile = ({ config }: { config: typeof CONFIG }): JSX.Element => {
+  const [sanitizedConfig] = useState(getSanitizedConfig({
+    ...config,
+    certifications: [],
+    publications: [],
+    blog: {
+      display: false,
+      source: '',
+      username: '',
+      limit: 0
+    }
+  }));
   const [theme, setTheme] = useState<string>(DEFAULT_THEMES[0]);
   const [error, setError] = useState<CustomError | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
@@ -218,18 +225,36 @@ const GitProfile = ({ config }: { config: Config }) => {
                       github={sanitizedConfig.github}
                       social={sanitizedConfig.social}
                     />
-                    {sanitizedConfig.skills.length !== 0 && (
+
+                    {sanitizedConfig.skills.languages.length !== 0 && (
                       <SkillCard
                         loading={loading}
-                        skills={sanitizedConfig.skills}
+                        skills={sanitizedConfig.skills.languages}
+                        title="Languages"
                       />
                     )}
-                    {sanitizedConfig.experiences.length !== 0 && (
-                      <ExperienceCard
+                    {sanitizedConfig.skills.ml.length !== 0 && (
+                      <SkillCard
                         loading={loading}
-                        experiences={sanitizedConfig.experiences}
+                        skills={sanitizedConfig.skills.ml}
+                        title="Machine Learning"
                       />
                     )}
+                    {sanitizedConfig.skills.tools.length !== 0 && (
+                      <SkillCard
+                        loading={loading}
+                        skills={sanitizedConfig.skills.tools}
+                        title="Tools"
+                      />
+                    )}
+                    {sanitizedConfig.skills.soft_skills.length !== 0 && (
+                      <SkillCard
+                        loading={loading}
+                        skills={sanitizedConfig.skills.soft_skills}
+                        title="Soft Skills"
+                      />
+                    )}
+                    
                     {sanitizedConfig.certifications.length !== 0 && (
                       <CertificationCard
                         loading={loading}
